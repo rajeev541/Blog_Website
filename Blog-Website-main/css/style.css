@@ -1,0 +1,255 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  text-align: center;
+}
+
+.header-container{
+  margin-top: 70px;
+  font-size: 25px;
+  position: relative;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+.para{
+    font-family: 'Poiret One', cursiv;
+    font-size: 30px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.unk{
+  background-color: black;
+  color: white;
+  padding-right:  10px;
+  padding-left: 10px;
+}
+
+.nature-container{
+  background-color: white;
+  width: 990px;
+  height:600px;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box1{
+  height: 50%;
+  width: 100%;
+  background-image: url("../images/woods.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box2{
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #000000;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f0f5f5;
+  background-image: -webkit-linear-gradient(top, #f0f5f5, #b7bdc2);
+  background-image: -moz-linear-gradient(top, #f0f5f5, #b7bdc2);
+  background-image: -ms-linear-gradient(top, #f0f5f5, #b7bdc2);
+  background-image: -o-linear-gradient(top, #f0f5f5, #b7bdc2);
+  background-image: linear-gradient(to bottom, #f0f5f5, #b7bdc2);
+  text-decoration: none;
+}
+
+.side-container{
+  background-color: white;
+  width:470px;
+  height: 470px;
+  position: absolute;
+  margin-left : 1030px;
+  margin-top:  -600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.side-img{
+  background-image: url("../images/avatar.jpg");
+  height: 60%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lighter{
+  opacity: 0.5;
+}
+
+.comments{
+  display: inline-block;
+  color: black;
+  margin-left: 650px;
+}
+
+.zero{
+  background-color: black;
+  color: white;
+  padding: 9px 10px;
+}
+
+.side-cont{
+  text-align: left;
+  /* margin-left:20px;
+  margin-right: 20px; */
+  line-height: 1.5;
+  padding-left:  10px;
+  padding-right: 10px;
+}
+
+
+.down-container{
+  background-color: white;
+  width: 990px;
+  height:600px;
+  margin-left: 10px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.down-img{
+  background-image: url("../images/bridge.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+
+.down-cont{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 10px;
+  line-height: 1.5;
+  /* padding-left:  10px;
+  padding-right: 10px; */
+}
+
+.post{
+  background-color: white;
+  width:470px;
+  height: 430px;
+  margin-left: 1030px;
+  margin-top: -730px;
+}
+
+.post-head{
+  background-color: #EDE6DB;
+  width: 96%;
+  height: 15%;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.post1{
+  width: 15%;
+  height: 70px;
+  background-image: url("../images/workshop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+hr{
+  border: 1px solid #eee;
+}
+
+.post-para{
+  margin-left:120px;
+  margin-top: -70px;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sml-para{
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.post2{
+  width: 15%;
+  height: 70px;
+  background-image: url("../images/gondol.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.post3{
+  width: 15%;
+  height: 70px;
+  background-image: url("../images/skies.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+.hov-bck{
+border : 1px solid white;
+}
+.hov-bck:hover{
+  background-color: #eee;
+  /* width: 100%; */
+  /* height: 100%; */
+  border : 1px solid #eee;
+}
+
+.bottom-container{
+  background-color: black;
+  padding: 50px 0 20px;
+  margin-top: 350px;
+}
+
+a{
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
